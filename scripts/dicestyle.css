@@ -1,0 +1,13 @@
+/* FA-Windlass font for Dice So Nice */
+@font-face {
+  font-family: 'FA-Windlass';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('FA-Windlass'),
+       url('../fonts/FA-Windlass.otf') format('opentype');
+}
+/* Force font loading for dice systems */
+.dice-so-nice [data-font="FA-Windlass"] {
+  font-family: 'FA-Windlass', 'Arial', sans-serif !important;
+}

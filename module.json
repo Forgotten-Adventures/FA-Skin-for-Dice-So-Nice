@@ -1,0 +1,31 @@
+{
+  "id": "fa-dsn-skin",
+  "title": "FA Skin for Dice So Nice",
+  "description": "Forgotten Adventures Skin for Dice So Nice. Requires Dice So Nice module to work.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13",
+	"maximum": "13"
+  },
+  "authors": [
+    {
+		"name":"Forgotten Adventures"
+    }
+  ],
+  "relationships": {
+	  "requires": [{
+		"id": "dice-so-nice",
+		"type": "module",
+		"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+	  }]
+	},
+  "esmodules": [
+	"scripts/fadice.js"
+  ],
+  "styles": [
+	"scripts/dicestyle.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/Forgotten-Adventures/FA-Skin-for-Dice-So-Nice/main/module.json",
+  "download": "https://github.com/Forgotten-Adventures/FA-Skin-for-Dice-So-Nice/raw/main/fa-dsn-skin.zip"
+}
