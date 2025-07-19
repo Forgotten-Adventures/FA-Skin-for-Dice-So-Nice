@@ -11,5 +11,7 @@ This simple module adds FA styled dice skin to the [Dice-so-Nice](https://gitlab
 + couple of theme presets
 <img width="819" height="1114" alt="Foundry_Virtual_Tabletop_3lMT9AQhvZ" src="https://github.com/user-attachments/assets/4d465297-9203-4de1-bff0-a583f736eebb" />
 
-Installation manifest link:
-```https://raw.githubusercontent.com/Forgotten-Adventures/FA-Skin-for-Dice-So-Nice/main/module.json```
+##Installation manifest link:
+```
+https://raw.githubusercontent.com/Forgotten-Adventures/FA-Skin-for-Dice-So-Nice/main/module.json
+```
